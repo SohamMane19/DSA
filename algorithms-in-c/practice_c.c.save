@@ -1,0 +1,14 @@
+//#include<stdio.h>
+#include<math.h>
+//enums
+enum days {SUN,MON,TUE,WED,THU,FRI,SAT};
+int main()
+{
+	//constants
+	#define DAYS_IN_YEAR 365
+	printf("%d\n",DAYS_IN_YEAR);
+	//enums
+	enum days day=SUN;
+	printf("%d\n",day);
+
+}
